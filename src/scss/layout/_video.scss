@@ -1,0 +1,61 @@
+.video{
+    position: relative;
+    max-height: 70rem;
+    overflow: hidden;
+
+    .overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#344d90+0,e04569+0,e0708a+67,ffffff+100&0.8+0,0.5+100 */
+        background: -moz-linear-gradient(top,  rgba(224,69,105,0.8) 0%, rgba(224,112,138,0.6) 67%, rgba(255,255,255,0.5) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  rgba(224,69,105,0.8) 0%,rgba(224,112,138,0.6) 67%,rgba(255,255,255,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  rgba(224,69,105,0.8) 0%,rgba(224,112,138,0.6) 67%,rgba(255,255,255,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cce04569', endColorstr='#80ffffff',GradientType=0 ); /* IE6-9 */
+
+
+
+    }
+    video{
+        display: block;
+        width: 100%;
+    }
+}
+
+.contenido-video {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+
+    h2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: $blanco;
+        font-size: 4rem;
+
+        @include tablet{
+           font-size: 7rem;
+        }
+
+
+        span {
+            background-color: $naranja;
+            font-size: 1.5rem;
+            padding: 1rem 2rem;
+            margin-top: 0.5rem;
+
+            @include tablet{
+                font-size: 2rem;
+             } 
+        }
+
+
+
+
+
+
+    }
+}

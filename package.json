@@ -1,0 +1,34 @@
+{
+  "name": "rap-reggae-fest",
+  "version": "1.0.0",
+  "description": "Learning Gulp and SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/YuliaGV/Rap-Reggae-Fest.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp",
+    "Web Design"
+  ],
+  "author": "Yuliana Gaviria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuliaGV/Rap-Reggae-Fest/issues"
+  },
+  "homepage": "https://github.com/YuliaGV/Rap-Reggae-Fest#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-webp": "^4.0.1"
+  },
+  "dependencies": {
+    "sass": "^1.35.1"
+  }
+}
