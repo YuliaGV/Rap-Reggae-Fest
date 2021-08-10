@@ -16,9 +16,9 @@
             <h1>Rap & Reggae Fest </h1>
 
             <nav class="navegacion-principal">
-                <a href="">Line Up</a>
-                <a href="">Galería</a>
-                <a href="">Boletos</a>
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galería</a>
+                <a href="#boletos">Boletos</a>
             </nav>
 
         </div>
@@ -61,7 +61,7 @@
 
     </div>
 
-    <section class="lineup">
+    <section class="lineup" id="lineup">
 
         <h3>Line up</h3>
 
@@ -71,20 +71,30 @@
             <div class="escenario rap bg-amarillo">
                 <p class="nombre-escenario">Escenario Rap</p>
 
-                <ul>
+                <ul class="calendario">
                     <li>24:00 | <span>AlcolirykoZ</span> </li>
                     <li>22:00 | <span>Nanpa Básico</span> </li>
-                    <li>20:00 | <span>Crack Family</span> </li>
-                    <li>19:00 | <span>Esk Lones</span> </li>
-                    <li>18:00 | <span>Nanpa Básico</span> </li>
-                    <li>17:00 | <span>Nanpa Básico</span> </li>
+                    <li>20:00 | <span>Thomas Parr</span> </li>
+                    <li>19:00 | <span>No Rules Clan,</span> </li>
+                    <li>18:00 | <span>Afaz Natural</span> </li>
+                    <li>17:00 | <span>Luis7Lunes</span> </li>
                 </ul>
 
 
             </div>
 
-            <div class="escenario rap bg-verde">
+            <div class="escenario reggae bg-verde">
                 <p class="nombre-escenario">Escenario Reggae</p>
+
+                
+                <ul class="calendario">
+                    <li>24:00 | <span>Dread Mar I</span> </li>
+                    <li>22:00 | <span>Bukú Bembé</span> </li>
+                    <li>20:00 | <span>Cultura profética</span> </li>
+                    <li>19:00 | <span>Gondwana</span> </li>
+                    <li>18:00 | <span>Etana</span> </li>
+                    <li>17:00 | <span>Stylo G</span> </li>
+                </ul>
 
 
             </div>
@@ -93,10 +103,157 @@
 
         <p class="dia">Sábado 22</p>
 
+        <div class="contenedor escenarios-contenedor">
+            <div class="escenario rap bg-verde">
+                <p class="nombre-escenario">Escenario Rap</p>
+
+                <ul class="calendario">
+                    <li>24:00 | <span>Crack Family</span> </li>
+                    <li>22:00 | <span>Tyxano</span> </li>
+                    <li>20:00 | <span>N. Hardem</span> </li>
+                    <li>19:00 | <span>Esk-Lones</span> </li>
+                    <li>18:00 | <span>Vic Deal </span> </li>
+                    <li>17:00 | <span>Maco Maat</span> </li>
+                </ul>
+
+
+            </div>
+
+            <div class="escenario reggae bg-amarillo">
+                <p class="nombre-escenario">Escenario Reggae</p>
+
+                
+                <ul class="calendario">
+                    <li>24:00 | <span>Gondwana</span> </li>
+                    <li>22:00 | <span>Zona Ganjah</span> </li>
+                    <li>20:00 | <span>Capitan Rocksteady</span> </li>
+                    <li>19:00 | <span>Tarmac</span> </li>
+                    <li>18:00 | <span>Ciénaga</span> </li>
+                    <li>17:00 | <span>School Mc</span> </li>
+                </ul>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contenedor galeria" id="galeria">
+
+        <h3>Galería</h3>
+        <ul class="galeria-imagenes"></ul>
 
     </section>
 
 
+    <section class="boletos bg-verde" id="boletos">
+
+        <h3>Boletos</h3>
+
+        <div class="contenedor-boletos contenedor">
+            <div class="basico plan">
+                <p>Pase 1 día</p>
+
+                <table class="pase">
+
+                    <thead>
+                        <tr>
+                            <th>
+                                Incluye
+                            </th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                Acceso a todos los escenarios
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Comida y bebida
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td>
+                                $300.000
+                            </td>
+                        </tr>
+
+                    </tfoot>
+
+                </table>
+
+            </div>
+            <div class="premium plan">
+                <p>Pase 2 días</p>
+
+                <table class="pase">
+
+                    <thead>
+                        <tr>
+                            <th>
+                                Incluye
+                            </th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                Acceso a todos los escenarios
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Comida y bebida
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Camisa del evento
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Acceso VIP
+                            </td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td>
+                                $450.000
+                            </td>
+                        </tr>
+
+                    </tfoot>
+                </table>
+
+
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <footer class="footer">
+        <p>Rap&Reggae Festival. Todos los derechos reservados</p>
+    </footer>
+
+
+    <script src="build/js/bundle.js"></script>
 
     
 </body>
